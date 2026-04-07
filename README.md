@@ -230,17 +230,6 @@ n8n receives this JSON body on every new booking:
 }
 ```
 
-**3. Example workflow ideas**
-
-| Trigger | Action |
-|---|---|
-| New booking | Send confirmation email via Gmail / SMTP |
-| New booking | Add row to Google Sheets |
-| New booking | Post to Slack `#bookings` channel |
-| New booking | Create task in Notion or Trello |
-
-> If `N8N_WEBHOOK_URL` is not set, the webhook is silently skipped and a message is printed to the console.
-
 ---
 
 ## Tech Stack
